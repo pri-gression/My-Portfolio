@@ -1,0 +1,30 @@
+body{
+    background-color: #ffbd59
+}
+
+.azure {
+    color: #006c80;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.gray {
+    color: #32344b;
+}
+
+.about-me {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-containers {
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    font-size: larger;
+}
+
