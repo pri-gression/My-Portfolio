@@ -10,39 +10,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "about-section">
+    <section id = "About">
+        <div class = "about-section">
 
-        <div class = "header-containers"> 
-            <span> about() </span>
-            <span> myProjects() </span>
-            <span> myTechStack() </span>
-            <span> myCertifications() </span>
-            <span> contactMe() </span>
-        </div>
+            <nav class = "header-containers"> 
+                <button class = "nav-btn" data-target = "about"> about() </button>
+                <button class = "nav-btn" data-target = "projects"> myProjects() </button>
+                <button class = "nav-btn" data-target = "tech"> myTechStack() </button>
+                <button class = "nav-btn" data-target = "certifications"> myCertifications() </button>
+                <button class = "nav-btn" data-target = "gallery"> gallery() </button>
+                <button class = "nav-btn" data-target = "contact"> contactMe() </button>
+            </nav>
 
-         <div class="about-content">
+            <div class="about-content">
 
-            <div class = "about-left">
-                <img class = "image" src="Image.jpg">
-            </div> 
+                <div class = "about-left">
+                    <img class = "image" src="Image 2.png">
+                </div> 
 
-            <div class = "about-right">
-                <div class = "about-me">
-                    <h4 class = "azure"> def </h4> 
-                    <h4 class = "red"> about_me </h4> 
-                    <h4 class = "gray"> (): </h4>
-                </div>
-                
-                <div class = 'code'>
-                    <h4> """ Software + ML + Data """ </h4>
-                    <h4> description"I enjoy building just as much as training models and making sense of data behind them!") </h4>
+                <div class = "about-right">
+                    <div class = "about-me">
+                        <h1 class = "azure"> def </h1> 
+                        <h1 class = "red"> about_me </h1> 
+                        <h1 class = "gray"> (): </h1>
+                    </div>
+                    
+                    <div class = 'code'>
+                        <div class = 'docstring'><h4> """ Software + ML + Data """ </h4></div>
+                        <div class = 'descr'><h4> descr = "I enjoy building just as much as training models and making sense of data behind them!" </h4></div>
+                        <div class = 'return'><h4> return descr </h4></div>
+                    </div>
+
                 </div>
 
             </div>
-
-        </div>
-        
+            
     </section> 
+
+    <section id = "Projects">
+
+    </section>
+
+     <section id = "Tech Stack">
+
+    </section>
+
+     <section id = "Contact">
+
+    </section>
 
     <script src="script.js"></script>
 </body>
